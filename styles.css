@@ -1,0 +1,388 @@
+body {
+
+
+    height: 100vh;
+    padding: auto;
+    text-align: center;
+
+
+}
+
+.bg {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+
+}
+
+.lbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    max-width: 100%;
+
+}
+
+.hbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    max-width: 100%;
+
+}
+
+.bbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    max-width: 100%;
+    
+}
+
+h3 {
+    text-align: center;
+    background-color: orangered;
+    color: #fff;
+    padding: 1%;
+    border-radius: 90px;
+}
+
+
+h6 {
+    color: #fff;
+
+}
+
+hr {
+    color: black;
+}
+
+/*-----navbar--------*/
+
+.navbar {
+    background-color: #3B0944;
+    opacity: 0.9;
+}
+
+.title-img {
+    max-width: 100%;
+    height: 30px;
+
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 10%;
+
+}
+
+.nav-item {
+
+    font-size: 15px;
+    font-family: "Montserrat-Light";
+
+}
+
+.collapse {
+    padding-right: 10%;
+}
+
+@media (max-width: 1028px) {
+    .collapse {
+        position: static;
+
+        text-align: right;
+    }
+}
+
+
+/*-------login-section---------*/
+
+#login-section {
+    max-width: 400px;
+    margin: auto;
+    padding-top: auto;
+    opacity: 0.75;
+
+}
+
+.container {
+    background-color: #C9D6DF;
+    border-radius: 60px;
+    text-align: left;
+
+}
+
+/*--------search-section--------*/
+
+#search-section {
+    max-width: 600px;
+    margin: auto;
+    position: top;
+    opacity: 0.75;
+}
+
+/*-------list-section----------*/
+
+#flist {
+    position: fixed;
+    padding-left: 220px;
+    display: initial;
+}
+
+.form-row .range {
+    color: #fff;
+    word-spacing: 80px;
+    font-size: 80%;
+}
+
+.form-row .range-a {
+    color: #fff;
+    word-spacing: 160px;
+    font-size: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    #flist {
+        position: relative;
+
+
+    }
+}
+
+#hlist {
+    position: static;
+    padding-left: 700px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    #hlist {
+
+        float: right;
+        font-size: 20%;
+        min-width: 120%;
+        margin-right: 25%;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #hlist h4 {
+        font-size: smaller;
+
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #hlist .btn {
+        font-size: smaller;
+
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #footer-r {
+
+        position: relative;
+        float: right;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lbg {
+        background-repeat: repeat;
+        background-size: contain;
+        background-position: left;
+
+        width: 100%;
+        float: right;
+    }
+}
+
+
+/*-------cards-------*/
+
+.room {
+    width: 34%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 45%;
+
+}
+
+.card-header {
+    font-size: medium;
+    font-weight: 80;
+}
+
+.per-night {
+
+    color: #fff;
+    padding: 8px 4px 8px;
+    text-align: center;
+    float: center;
+}
+
+.facts {
+    padding: 8px 4px 8px;
+    text-align: center;
+
+}
+
+/*------room-desc-------*/
+
+.room-img {
+    position: relative;
+    padding: 2% 6%;
+}
+
+.descr {
+    background-color: orangered;
+
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    margin-left: 20px;
+
+}
+
+.accom {
+    background-color: #FF7C38;
+    text-align: center;
+    color: white;
+    border-radius: 5%;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    opacity: 0.8;
+    width: 80%;
+}
+
+.rdes {
+    color: white;
+    padding-left: 40px;
+}
+
+/*--------Booking-Section-----*/
+
+.pin {
+    margin-left: 30px;
+}
+
+.booking-column {
+    float: right;
+    margin-right: 30px;
+}
+
+.b-facts {
+    background-color: grey;
+    color: white;
+    padding: 8px 4px 8px;
+    text-align: center;
+    float: center;
+}
+
+.hh {
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .room-img,
+    .pin-img {
+
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #book .card-header,
+    .header,
+    .card-header .btn {
+        font-size: 20%;
+        margin-left: 5px;
+        
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .bbg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        
+        max-width: 100%;
+        height:100%;
+    }
+}    
+
+.favs {
+    color: white;
+    text-align: center;
+    
+}
+
+.favs-h {
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#book .card-a {
+    background-color: #311D3F;
+    opacity: 0.6;
+}
+
+#footer {
+    text-align: center;
+    background-color: #393E46;
+    color: #fff;
+    padding: 15px 0 7px;
+
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#footer-r {
+    text-align: center;
+    background-color: #393E46;
+    color: #fff;
+    padding: 15px 0 7px;
+
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    opacity: 0.43;
+}
+
+#footer-e {
+
+    text-align: center;
+    background-color: #393E46;
+    color: #fff;
+    padding: 15px 0 7px;
+
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    opacity: 0.43;
+
+}

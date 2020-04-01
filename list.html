@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Hotels List</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script defer src="fontawesome-free-5.12.1-web/js/all.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <div class="lbg" style="background-image: url('images/ab.jpg');  ">
+        <p class="py-5 text-center"></p>
+        <section id="menu">
+
+            <!--ftaixnw div class container-fluid gia na sumperilavw mesa olo to section stin ousia gia na to kanw 100% stin othoni m-->
+            <div class="container-fluid">
+                <!-- Nav Bar -->
+
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+
+
+                    <a class="navbar-brand" href=""><span><img class="title-img" src="favicon.ico"></span>otels</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="landings.html"><i class="fas fa-home"></i> Home <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-user"></i> Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </section>
+
+        <section id="flist">
+            <div class="container-fluid">
+                <div class="row mx-md-n5">
+
+                    <div class="col px-md-5">
+
+                        <form>
+                            <div class="form-row">
+                                <div class="col-lg col-md-6 col-sm-3">
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>Count of Guests</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">>=4</option>
+                                    </select>
+                                    <br><br>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>Room Type</option>
+                                        <option value="1">Single Room</option>
+                                        <option value="2">Double Room</option>
+                                        <option value="3">Triple</option>
+                                    </select>
+                                    <br> <br>
+                                    <select class="custom-select" id="inputGroupSelect01">
+                                        <option selected>City</option>
+                                        <option value="1">Athens</option>
+                                        <option value="2">Thessaloniki</option>
+                                        <option value="3">Komotini</option>
+                                    </select>
+
+                                    <br> <br>
+                                    <h5 class="range-a">0 5000</h5>
+                                    <input type="range" class="form-control" min="0" max="5000" value="2500"
+                                        class="slider" id="myRange">
+                                    <h5 class="range">Price-Min. Price-Max.</h5>
+                                    <br>
+                                    <input type="date" class="form-control" placeholder="Check-in Date">
+                                    <br>
+                                    <input type="date" class="form-control" placeholder="Check-out Date">
+                                    <br>
+                                    <button class="btn btn-dark btn-lg btn-block"> Find Hotel</button>
+                                </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+        <section id="hlist">
+
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="pricing-column col-lg-9 col-md col-sm">
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img class="room" src="Images/room_images/room-1.jpg" alt="room-1">
+                                <h4 class="header">HILTON HOTEL<br>ATHENS, ZWGRAFOU</h4>
+                                <p>Welcome to the newly renovated 28 sq. m./301 sq. ft. room featuring elegant and
+                                    contemporary design with useful amenities.
+                                    Enjoy the minibar and bright bathroom. Spoil yourself with tea/coffee prepared in
+                                    your room.</p>
+                                    <a class="nav-link" href="rooms.html"><button class="btn btn-md btn-dark float-right"
+                                        type="button">Go to Room Page</button></a>
+                                <br><br><br>
+                            </div>
+                            
+                                <form>
+
+                                    <div class="form-row px-md-5">
+
+                                        <div class="col">
+                                            <p class="per-night bg-dark"> Per Night: 350</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="facts"> Count of Guests: 1</p>
+                                        </div>
+                                        <div class="col">
+                                            <p class="facts">Type of Room: Single-Room</p>
+                                        </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    
+                    <br> <br> 
+
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="room" src="Images/room_images/room-2.jpg" alt="room-2">
+                            <h4 class="header">MEGALI VRETANIA HOTEL<br>ATHENS, SYNTAGMA</h4>
+                            <p>With captivating views of Mount Lycabettus, Deluxe Guestrooms combine matchless
+                                panorama and refined living.
+                                An inviting spot for quiet contemplation, a perfectly-positioned writing desk
+                                looks out onto the birthplace of democracy.</p>
+                            <button class="btn btn-md btn-dark float-right" type="button">Go to Room
+                                Page</button>
+                            <br><br><br>
+                        </div>
+                            <form>
+                                <div class="form-row px-md-5">
+                                    <div class="col">
+                                        <p class="per-night bg-dark"> Per Night: 500</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="facts"> Count of Guests: 2</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="facts">Type of Room: Double-Room</p>
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                
+                <br><br>
+
+
+                <div class="card">
+                    <div class="card-header">
+                        <img class="room" src="Images/room_images/room-3.jpg" alt="room-3">
+                        <h4 class="header">APOLLO HOTEL<br>ATHENS, CENTER</h4>
+                        <p>Rooms are equipped with cable TV, a private balcony and a patio. Comfortable rooms
+                            with sea views are also available.
+                            Each room has en suite bathrooms with a bath, shower and a hairdryer.</p>
+                        <button class="btn btn-md btn-dark float-right" type="button">Go to Room
+                            Page</button>
+                        <br><br><br>
+                    </div>
+                        <form>
+                            <div class="form-row px-md-5">
+                                <div class="col">
+                                    <p class="per-night bg-dark"> Per Night: 420</p>
+                                </div>
+                                <div class="col">
+                                    <p class="facts"> Count of Guests: 3</p>
+                                </div>
+                                <div class="col">
+                                    <p class="facts">Type of Room: Trible-Room</p>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            
+            <br><br>
+
+            <div class="card">
+                <div class="card-header">
+                    <img class="room" src="Images/room_images/room-4.jpg" alt="room-4">
+                    <h4 class="header">OSCAR HOTEL<br>ATHENS, CENTER</h4>
+                    <p>Oscar Hotel provides comfortable accommodation right in the center of Athens,
+                        opposite the central rail and metro station, Larissa Station, and only a few minutes
+                        walk from Omonia Square and the Archaeological Museum. ideal for you and your family
+                        or friends, in affordable prices that also include rich buffet breakfast. It features
+                        122 spacious, airy and bright rooms, for 2, 3 or 4 persons, and 2 unique luxurious
+                        suites!</p>
+                    <button class="btn btn-md btn-dark float-right" type="button">Go to Room
+                        Page</button>
+                    <br><br><br>
+                </div>
+                    <form>
+                        <div class="form-row px-md-5">
+                            <div class="col">
+                                <p class="per-night bg-dark"> Per Night: 500</p>
+                            </div>
+                            <div class="col">
+                                <p class="facts"> Count of Guests: 2</p>
+                            </div>
+                            <div class="col">
+                                <p class="facts">Type of Room: Double-Room</p>
+                            </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+    </div>
+    </section>
+
+    <br><br>
+
+    <section id="footer-r">
+
+        <div class="footer">
+
+            <p>© I. Sklavidis 2020 </p>
+
+        </div>
+
+    </section>
+
+
+    </div>
+    </div>
+</body>
+
+
+
+</html>
